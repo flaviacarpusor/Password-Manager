@@ -1,4 +1,5 @@
 Password Manager (CLI)
+
 A simple command-line utility that manages a list of credentials stored in a file that can be updated (insert / update / delete). All passwords are encrypted with a master password that must be provided for every operation.
 
 Input format: pwmanager.py <master_password> -<operation> <website> <username> <password>
@@ -6,6 +7,7 @@ Input format: pwmanager.py <master_password> -<operation> <website> <username> <
 Output file: pwmanager.db (encrypted passwords)
 
 Features
+
 Add new credentials (or update an existing website entry)
 
 Retrieve and decrypt a password for a given website
